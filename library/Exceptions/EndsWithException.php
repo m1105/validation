@@ -25,10 +25,10 @@ final class EndsWithException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须以 {{endValue}} 结尾',
+            self::STANDARD => '{{name}} 必須以 {{endValue}} 結尾',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 不能以 {{endValue}} 结尾',
+            self::STANDARD => '{{name}} 不能以 {{endValue}} 結尾',
         ],
     ];
 }

@@ -25,10 +25,10 @@ final class EachException extends NestedValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 中的每个项都必须有效',
+            self::STANDARD => '{{name}} 中的每個項都必須有效',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 中的每个项都必须无效',
+            self::STANDARD => '{{name}} 中的每個項都必須無效',
         ],
     ];
 }

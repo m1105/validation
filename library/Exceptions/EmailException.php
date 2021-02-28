@@ -29,10 +29,10 @@ final class EmailException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须是有效的电子邮件',
+            self::STANDARD => '{{name}} 必須是有效的電子郵件',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 不能是电子邮件',
+            self::STANDARD => '{{name}} 不能是電子郵件',
         ],
     ];
 }

@@ -25,10 +25,10 @@ final class IntTypeException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须是integer类型',
+            self::STANDARD => '{{name}} 必須是integer類型',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 不能是integer类型',
+            self::STANDARD => '{{name}} 不能是integer類型',
         ],
     ];
 }

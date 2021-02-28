@@ -25,7 +25,7 @@ final class ContainsException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须包含值 {{containsValue}}',
+            self::STANDARD => '{{name}} 必須包含值 {{containsValue}}',
         ],
         self::MODE_NEGATIVE => [
             self::STANDARD => '{{name}} 不能包含值 {{containsValue}}',

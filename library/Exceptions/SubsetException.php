@@ -24,7 +24,7 @@ final class SubsetException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须是 {{superset}} 的子集',
+            self::STANDARD => '{{name}} 必須是 {{superset}} 的子集',
         ],
         self::MODE_NEGATIVE => [
             self::STANDARD => '{{name}} 不能是 {{superset}} 的子集',

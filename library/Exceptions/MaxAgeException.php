@@ -24,7 +24,7 @@ final class MaxAgeException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须是 {{age}} 年或者更少',
+            self::STANDARD => '{{name}} 必須是 {{age}} 年或者更少',
         ],
         self::MODE_NEGATIVE => [
             self::STANDARD => '{{name}} 不能是 {{age}} 年或者更少',

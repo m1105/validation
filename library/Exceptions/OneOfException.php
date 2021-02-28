@@ -24,10 +24,10 @@ final class OneOfException extends NestedValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '这些规则中只有一个必须传递给 {{name}}',
+            self::STANDARD => '這些規則中只有一個必須傳遞給 {{name}}',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '这些规则中只有一个不能传递给 {{name}}',
+            self::STANDARD => '這些規則中只有一個不能傳遞給 {{name}}',
         ],
     ];
 }

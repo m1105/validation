@@ -25,12 +25,12 @@ final class KeyValueException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '键 {{name}} 必须存在',
-            self::COMPONENT => '{{baseKey}} 必须有效才能验证 {{comparedKey}}',
+            self::STANDARD => '鍵 {{name}} 必須存在',
+            self::COMPONENT => '{{baseKey}} 必須有效才能驗証 {{comparedKey}}',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '键 {{name}} 不能存在',
-            self::COMPONENT => '{{baseKey}} 必须无效才能验证 {{comparedKey}}',
+            self::STANDARD => '鍵 {{name}} 不能存在',
+            self::COMPONENT => '{{baseKey}} 必須無效才能驗証 {{comparedKey}}',
         ],
     ];
 

@@ -25,10 +25,10 @@ final class UppercaseException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须大写',
+            self::STANDARD => '{{name}} 必須大寫',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 不能大写',
+            self::STANDARD => '{{name}} 不能大寫',
         ],
     ];
 }

@@ -24,10 +24,10 @@ final class SfException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须对 {{constraint}} 有效',
+            self::STANDARD => '{{name}} 必須對 {{constraint}} 有效',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 不能对 {{constraint}} 有效',
+            self::STANDARD => '{{name}} 不能對 {{constraint}} 有效',
         ],
     ];
 }

@@ -24,10 +24,10 @@ final class HexRgbColorException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须是十六进制RGB颜色',
+            self::STANDARD => '{{name}} 必須是十六進制RGB顏色',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 不能是十六进制RGB颜色',
+            self::STANDARD => '{{name}} 不能是十六進制RGB顏色',
         ],
     ];
 }

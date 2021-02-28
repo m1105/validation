@@ -23,10 +23,10 @@ class SubdivisionCodeException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须是 {{countryName}} 的细分代码',
+            self::STANDARD => '{{name}} 必須是 {{countryName}} 的细分代碼',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 不能是 {{countryName}} 的细分代码',
+            self::STANDARD => '{{name}} 不能是 {{countryName}} 的细分代碼',
         ],
     ];
 }

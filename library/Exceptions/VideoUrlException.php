@@ -27,12 +27,12 @@ final class VideoUrlException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须是有效的视频URL',
-            self::SERVICE => '{{name}} 必须是有效的 {{service}} 视频URL',
+            self::STANDARD => '{{name}} 必須是有效的視頻URL',
+            self::SERVICE => '{{name}} 必須是有效的 {{service}} 視頻URL',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 不能是有效的视频URL',
-            self::SERVICE => '{{name}} 不能是有效的 {{service}} 视频URL',
+            self::STANDARD => '{{name}} 不能是有效的視頻URL',
+            self::SERVICE => '{{name}} 不能是有效的 {{service}} 視頻URL',
         ],
     ];
 

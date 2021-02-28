@@ -23,7 +23,7 @@ final class ContainsAnyException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须包含至少一个值 {{needles}}',
+            self::STANDARD => '{{name}} 必須包含至少一個值 {{needles}}',
         ],
         self::MODE_NEGATIVE => [
             self::STANDARD => '{{name}} 不能包含任何值 {{needles}}',

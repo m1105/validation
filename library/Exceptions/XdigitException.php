@@ -24,12 +24,12 @@ final class XdigitException extends FilteredValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 只能包含十六进制数字',
-            self::EXTRA => '{{name}} 只能包含十六进制数字和 {{additionalChars}}',
+            self::STANDARD => '{{name}} 只能包含十六進制數字',
+            self::EXTRA => '{{name}} 只能包含十六進制數字和 {{additionalChars}}',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 不能包含十六进制数字',
-            self::EXTRA => '{{name}} 不能包含十六进制数字或 {{additionalChars}}',
+            self::STANDARD => '{{name}} 不能包含十六進制數字',
+            self::EXTRA => '{{name}} 不能包含十六進制數字或 {{additionalChars}}',
         ],
     ];
 }

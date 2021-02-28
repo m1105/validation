@@ -25,7 +25,7 @@ final class InException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须在 {{haystack}} 中',
+            self::STANDARD => '{{name}} 必須在 {{haystack}} 中',
         ],
         self::MODE_NEGATIVE => [
             self::STANDARD => '{{name}} 不能在 {{haystack}} 中',

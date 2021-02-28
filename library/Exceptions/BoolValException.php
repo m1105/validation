@@ -25,10 +25,10 @@ final class BoolValException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须是布尔值',
+            self::STANDARD => '{{name}} 必須是布爾值',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 不能是布尔值',
+            self::STANDARD => '{{name}} 不能是布爾值',
         ],
     ];
 }

@@ -30,12 +30,12 @@ final class KeyNestedException extends NestedValidationException implements NonO
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::NOT_PRESENT => '找不到密钥链 {{name}} 的项',
-            self::INVALID => '密钥链 {{name}} 无效',
+            self::NOT_PRESENT => '找不到密鑰鏈 {{name}} 的項',
+            self::INVALID => '密鑰鏈 {{name}} 無效',
         ],
         self::MODE_NEGATIVE => [
-            self::NOT_PRESENT => '密钥链 {{name}} 的项不存在',
-            self::INVALID => '密钥链 {{name}} 必须无效',
+            self::NOT_PRESENT => '密鑰鏈 {{name}} 的項不存在',
+            self::INVALID => '密鑰鏈 {{name}} 必須無效',
         ],
     ];
 

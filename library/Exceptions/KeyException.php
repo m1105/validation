@@ -30,12 +30,12 @@ final class KeyException extends NestedValidationException implements NonOmissib
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::NOT_PRESENT => '键 {{name}} 必须存在',
-            self::INVALID => '键 {{name}} 必须有效',
+            self::NOT_PRESENT => '鍵 {{name}} 必須存在',
+            self::INVALID => '鍵 {{name}} 必須有效',
         ],
         self::MODE_NEGATIVE => [
-            self::NOT_PRESENT => '键 {{name}} 不能存在',
-            self::INVALID => '键 {{name}} 必须无效',
+            self::NOT_PRESENT => '鍵 {{name}} 不能存在',
+            self::INVALID => '鍵 {{name}} 必須無效',
         ],
     ];
 

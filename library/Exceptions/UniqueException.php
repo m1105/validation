@@ -27,10 +27,10 @@ final class UniqueException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 不能包含重复项',
+            self::STANDARD => '{{name}} 不能包含重複項',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 必须包含重复项',
+            self::STANDARD => '{{name}} 必須包含重複項',
         ],
     ];
 }

@@ -24,10 +24,10 @@ final class CallException extends NestedValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '当使用 {{callable}} 时 {{input}} 必须有效',
+            self::STANDARD => '當使用 {{callable}} 時 {{input}} 必須有效',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '当使用 {{callable}} 时 {{input}} 必须无效',
+            self::STANDARD => '當使用 {{callable}} 時 {{input}} 必須無效',
         ],
     ];
 }

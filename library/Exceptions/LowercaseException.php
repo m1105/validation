@@ -25,10 +25,10 @@ final class LowercaseException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须是小写',
+            self::STANDARD => '{{name}} 必須是小寫',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 不能是小写',
+            self::STANDARD => '{{name}} 不能是小寫',
         ],
     ];
 }

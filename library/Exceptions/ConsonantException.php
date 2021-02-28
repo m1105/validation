@@ -25,12 +25,12 @@ final class ConsonantException extends FilteredValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 只能包含辅音',
-            self::EXTRA => '{{name}} 只能包含辅音和 {{additionalChars}}',
+            self::STANDARD => '{{name}} 只能包含輔音',
+            self::EXTRA => '{{name}} 只能包含輔音和 {{additionalChars}}',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 不能包含辅音',
-            self::EXTRA => '{{name}} 不能包含辅音或 {{additionalChars}}',
+            self::STANDARD => '{{name}} 不能包含輔音',
+            self::EXTRA => '{{name}} 不能包含輔音或 {{additionalChars}}',
         ],
     ];
 }

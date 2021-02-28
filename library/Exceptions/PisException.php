@@ -25,10 +25,10 @@ final class PisException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须是有效的PIS编号',
+            self::STANDARD => '{{name}} 必須是有效的PIS编號',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 不能是有效的PIS编号',
+            self::STANDARD => '{{name}} 不能是有效的PIS编號',
         ],
     ];
 }

@@ -25,10 +25,10 @@ final class RegexException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 对照 {{regex}} 进行验证',
+            self::STANDARD => '{{name}} 對照 {{regex}} 進行驗証',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 不能针对 {{regex}} 进行验证',
+            self::STANDARD => '{{name}} 不能針對 {{regex}} 進行驗証',
         ],
     ];
 }

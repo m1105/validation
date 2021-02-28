@@ -26,10 +26,10 @@ final class ObjectTypeException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须是object类型',
+            self::STANDARD => '{{name}} 必須是object類型',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 不能是object类型',
+            self::STANDARD => '{{name}} 不能是object類型',
         ],
     ];
 }

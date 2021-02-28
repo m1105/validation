@@ -25,10 +25,10 @@ final class MaxException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须小于或等于 {{compareTo}}',
+            self::STANDARD => '{{name}} 必須小於或等於 {{compareTo}}',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 不能小于或等于 {{compareTo}}',
+            self::STANDARD => '{{name}} 不能小於或等於 {{compareTo}}',
         ],
     ];
 }

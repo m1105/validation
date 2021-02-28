@@ -24,10 +24,10 @@ final class BetweenException extends NestedValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须介于 {{minValue}} 和 {{maxValue}} 之间',
+            self::STANDARD => '{{name}} 必須介於 {{minValue}} 和 {{maxValue}} 之間',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 不能介于 {{minValue}} 和 {{maxValue}} 之间',
+            self::STANDARD => '{{name}} 不能介於 {{minValue}} 和 {{maxValue}} 之間',
         ],
     ];
 }

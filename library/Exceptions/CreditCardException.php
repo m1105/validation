@@ -29,12 +29,12 @@ final class CreditCardException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须是有效的信用卡号',
-            self::BRANDED => '{{name}} 必须是有效的 {{brand}} 信用卡号',
+            self::STANDARD => '{{name}} 必須是有效的信用卡號',
+            self::BRANDED => '{{name}} 必須是有效的 {{brand}} 信用卡號',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 不能是有效的信用卡号',
-            self::BRANDED => '{{name}} 不能是有效的 {{brand}} 信用卡号',
+            self::STANDARD => '{{name}} 不能是有效的信用卡號',
+            self::BRANDED => '{{name}} 不能是有效的 {{brand}} 信用卡號',
         ],
     ];
 

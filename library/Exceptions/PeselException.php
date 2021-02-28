@@ -25,7 +25,7 @@ final class PeselException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须是有效的比索',
+            self::STANDARD => '{{name}} 必須是有效的比索',
         ],
         self::MODE_NEGATIVE => [
             self::STANDARD => '{{name}} 不能是有效的比索',

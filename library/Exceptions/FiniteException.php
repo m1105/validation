@@ -24,10 +24,10 @@ final class FiniteException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须是有限数',
+            self::STANDARD => '{{name}} 必須是有限數',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 不能是有限数',
+            self::STANDARD => '{{name}} 不能是有限數',
         ],
     ];
 }

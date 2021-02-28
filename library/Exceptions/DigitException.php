@@ -24,12 +24,12 @@ final class DigitException extends FilteredValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 只能包含数字（0-9）',
-            self::EXTRA => '{{name}} 只能包含数字（0-9）和 {{additionalChars}}',
+            self::STANDARD => '{{name}} 只能包含數字（0-9）',
+            self::EXTRA => '{{name}} 只能包含數字（0-9）和 {{additionalChars}}',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 不能包含数字（0-9）',
-            self::EXTRA => '{{name}} 只能包含数字（0-9）和 {{additionalChars}}',
+            self::STANDARD => '{{name}} 不能包含數字（0-9）',
+            self::EXTRA => '{{name}} 只能包含數字（0-9）和 {{additionalChars}}',
         ],
     ];
 }

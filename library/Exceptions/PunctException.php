@@ -25,12 +25,12 @@ final class PunctException extends FilteredValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 只能包含标点符号',
-            self::EXTRA => '{{name}} 只能包含标点符号和 {{additionalChars}}',
+            self::STANDARD => '{{name}} 只能包含標點符號',
+            self::EXTRA => '{{name}} 只能包含標點符號和 {{additionalChars}}',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 不能包含标点符号',
-            self::EXTRA => '{{name}} 不能包含标点符号或 {{additionalChars}}',
+            self::STANDARD => '{{name}} 不能包含標點符號',
+            self::EXTRA => '{{name}} 不能包含標點符號或 {{additionalChars}}',
         ],
     ];
 }

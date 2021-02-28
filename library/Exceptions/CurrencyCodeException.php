@@ -25,10 +25,10 @@ final class CurrencyCodeException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须是有效的货币',
+            self::STANDARD => '{{name}} 必須是有效的貨幣',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 不能是有效的货币',
+            self::STANDARD => '{{name}} 不能是有效的貨幣',
         ],
     ];
 }

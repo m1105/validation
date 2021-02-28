@@ -24,10 +24,10 @@ final class NoneOfException extends NestedValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '这些规则都不能传递给 {{name}}',
+            self::STANDARD => '這些規則都不能傳遞給 {{name}}',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '所有这些规则都必须传递给 {{name}}',
+            self::STANDARD => '所有這些規則都必須傳遞給 {{name}}',
         ],
     ];
 }

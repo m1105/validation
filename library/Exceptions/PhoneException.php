@@ -25,10 +25,10 @@ final class PhoneException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须是有效的电话号码',
+            self::STANDARD => '{{name}} 必須是有效的電話號碼',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 不能是有效的电话号码',
+            self::STANDARD => '{{name}} 不能是有效的電話號碼',
         ],
     ];
 }

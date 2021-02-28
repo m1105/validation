@@ -25,10 +25,10 @@ final class CountryCodeException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须是有效的国家/地区',
+            self::STANDARD => '{{name}} 必須是有效的國家/地區',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 不能是有效的国家/地区',
+            self::STANDARD => '{{name}} 不能是有效的國家/地區',
         ],
     ];
 }

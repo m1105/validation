@@ -26,10 +26,10 @@ final class ArrayTypeException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须是array类型',
+            self::STANDARD => '{{name}} 必須是array類型',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 不能是array类型',
+            self::STANDARD => '{{name}} 不能是array類型',
         ],
     ];
 }

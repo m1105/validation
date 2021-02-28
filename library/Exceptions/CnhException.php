@@ -25,10 +25,10 @@ final class CnhException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须是有效的CNH号码',
+            self::STANDARD => '{{name}} 必須是有效的CNH號碼',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 不能是有效的CNH号码',
+            self::STANDARD => '{{name}} 不能是有效的CNH號碼',
         ],
     ];
 }

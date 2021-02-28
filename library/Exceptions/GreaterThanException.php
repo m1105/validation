@@ -23,10 +23,10 @@ final class GreaterThanException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须大于 {{compareTo}}',
+            self::STANDARD => '{{name}} 必須大於 {{compareTo}}',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 不能大于 {{compareTo}}',
+            self::STANDARD => '{{name}} 不能大於 {{compareTo}}',
         ],
     ];
 }

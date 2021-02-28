@@ -24,10 +24,10 @@ final class DirectoryException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须是目录',
+            self::STANDARD => '{{name}} 必須是目錄',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 不能是目录',
+            self::STANDARD => '{{name}} 不能是目錄',
         ],
     ];
 }

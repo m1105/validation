@@ -26,10 +26,10 @@ final class NullTypeException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须为 null',
+            self::STANDARD => '{{name}} 必須為 null',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 不能为 null',
+            self::STANDARD => '{{name}} 不能為 null',
         ],
     ];
 }

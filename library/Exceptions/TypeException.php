@@ -26,7 +26,7 @@ final class TypeException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须是 {{type}}',
+            self::STANDARD => '{{name}} 必須是 {{type}}',
         ],
         self::MODE_NEGATIVE => [
             self::STANDARD => '{{name}} 不能是 {{type}}',

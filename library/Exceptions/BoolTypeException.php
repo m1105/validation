@@ -26,10 +26,10 @@ final class BoolTypeException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须是boolean类型',
+            self::STANDARD => '{{name}} 必須是boolean類型',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 不能是boolean类型',
+            self::STANDARD => '{{name}} 不能是boolean類型',
         ],
     ];
 }

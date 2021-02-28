@@ -25,10 +25,10 @@ final class AlwaysValidException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 始终有效',
+            self::STANDARD => '{{name}} 始終有效',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 始终无效',
+            self::STANDARD => '{{name}} 始終無效',
         ],
     ];
 }

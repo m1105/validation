@@ -23,10 +23,10 @@ final class PostalCodeException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须是 {{countryCode}} 上的有效邮政编码',
+            self::STANDARD => '{{name}} 必須是 {{countryCode}} 上的有效郵政编碼',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 不能是 {{countryCode}} 上的有效邮政编码',
+            self::STANDARD => '{{name}} 不能是 {{countryCode}} 上的有效郵政编碼',
         ],
     ];
 }

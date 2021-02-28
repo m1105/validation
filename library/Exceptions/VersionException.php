@@ -24,7 +24,7 @@ final class VersionException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须是版本',
+            self::STANDARD => '{{name}} 必須是版本',
         ],
         self::MODE_NEGATIVE => [
             self::STANDARD => '{{name}} 不能是版本',

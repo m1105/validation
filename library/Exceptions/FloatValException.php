@@ -25,10 +25,10 @@ final class FloatValException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须是浮点数',
+            self::STANDARD => '{{name}} 必須是浮點數',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 不能是浮点数',
+            self::STANDARD => '{{name}} 不能是浮點數',
         ],
     ];
 }

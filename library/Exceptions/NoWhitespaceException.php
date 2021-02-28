@@ -28,7 +28,7 @@ final class NoWhitespaceException extends ValidationException
             self::STANDARD => '{{name}} 不能包含空格',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 必须包含空格',
+            self::STANDARD => '{{name}} 必須包含空格',
         ],
     ];
 }

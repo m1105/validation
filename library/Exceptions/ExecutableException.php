@@ -24,10 +24,10 @@ final class ExecutableException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须是可执行文件',
+            self::STANDARD => '{{name}} 必須是可執行文件',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 不能是可执行文件',
+            self::STANDARD => '{{name}} 不能是可執行文件',
         ],
     ];
 }

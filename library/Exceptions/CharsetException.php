@@ -25,7 +25,7 @@ final class CharsetException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须在 {{charset}} 字符集中',
+            self::STANDARD => '{{name}} 必須在 {{charset}} 字符集中',
         ],
         self::MODE_NEGATIVE => [
             self::STANDARD => '{{name}} 不能在 {{charset}} 字符集中',

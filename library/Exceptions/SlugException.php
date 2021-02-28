@@ -25,7 +25,7 @@ final class SlugException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须是有效的 slug',
+            self::STANDARD => '{{name}} 必須是有效的 slug',
         ],
         self::MODE_NEGATIVE => [
             self::STANDARD => '{{name}} 不能是有效的 slug',

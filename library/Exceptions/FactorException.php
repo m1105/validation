@@ -25,7 +25,7 @@ final class FactorException extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须是 {{dividend}} 的因子',
+            self::STANDARD => '{{name}} 必須是 {{dividend}} 的因子',
         ],
         self::MODE_NEGATIVE => [
             self::STANDARD => '{{name}} 不能是 {{dividend}} 的因子',

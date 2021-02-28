@@ -25,10 +25,10 @@ final class Base64Exception extends ValidationException
      */
     protected $defaultTemplates = [
         self::MODE_DEFAULT => [
-            self::STANDARD => '{{name}} 必须采用Base64编码',
+            self::STANDARD => '{{name}} 必須採用Base 64編碼',
         ],
         self::MODE_NEGATIVE => [
-            self::STANDARD => '{{name}} 不能是Base64编码',
+            self::STANDARD => '{{name}} 不能是Base 64編碼',
         ],
     ];
 }
